@@ -1,0 +1,48 @@
+.sign-up{
+    margin-top: 200px;
+    display: flex;
+    padding: 102px ;
+    position: relative;
+    background-color: #495567;
+    &::after{
+        background-image: url(../../img/sircle.png);
+        background-repeat: no-repeat;
+        width: 1153px;
+        height: 347px;
+        position: absolute;
+        margin-top: 190px;
+        margin-left: 200px;
+        content: '';
+    }
+}
+.sign-up__title{
+    font-family: 'Space Mono';
+    width: 415px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+    color: #FFFFFF;
+    margin-top: 102px;
+}
+.sign-up__link{
+    margin-top: 122px;
+    margin-left: 352px;
+}
+@media  only screen and (max-width:$tablet) {
+    .sign-up{
+        flex-direction: column;
+        padding: 62px 156px 100px 155px;
+        &::after{
+            margin-left:-220px;
+            margin-top: 400px;
+        }
+    }
+    .sign-up__title{
+    text-align: center;
+    }
+    .sign-up__link{
+       align-items: center;
+       margin-left: 0%;
+    }
+}
