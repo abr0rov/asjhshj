@@ -1,26 +1,4 @@
 @mixin list-style {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-@mixin reset-link {
-    font-family: 'Space Mono';
-    font-weight: 700;
-    text-decoration: none;
-    color: #fff;
-    padding: 14px 39px 14px 39px;
-    background-color: #FCB72B;
-    
-}
-@mixin list {
-    font-family: 'Space Mono';
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    color: #495567;
-    
-}
-@mixin list-style {
     padding: 0;
     margin: 0;
     list-style: none;
